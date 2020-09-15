@@ -237,9 +237,11 @@ span {
         left: -140px;
     }
     .main-page:before {
+        background-position: center;
         top: 175px;
-        left: -260px;
-        width: 1000px;
+        left: -460px;
+        width: 1818px;
+        height: 909px;
     }
 
 }
