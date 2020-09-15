@@ -1,0 +1,187 @@
+.licenses {
+    width: 100%;
+    margin: 320px auto 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.licenses-figure {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.licenses-figure-image {
+    width: 100%;
+}
+
+.licenses-caption {
+    margin-left: 32px;
+}
+
+.licenses-title {
+    font-font: 'Manrope Bold';
+    margin-top: 88px;
+}
+
+.licenses-text {
+    margin: 40px 0 0;
+    max-width: 440px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #fff;
+}
+
+.licenses-image {
+    width: 440px;
+    margin: 320px auto 60px;
+}
+
+@media (max-width: 1440px) {
+    .licenses {
+        width: calc(100% - 96px);
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .licenses {
+        margin: 160px auto 0;
+        justify-content: flex-start;
+    }
+    .licenses-figure {
+        flex-direction: column;
+        align-items: center;
+        max-width: 541px;
+    }
+    .licenses-caption {
+        margin: 82px 0 0;
+    }
+    .licenses-title {
+        margin: 0;
+    }
+    .licenses-text {
+        max-width: 100%;
+        font-size: 16px;
+    }
+    .licenses-image {
+        margin: 160px auto 0;
+        width: 354px;
+    }
+}
+@media (max-width: 640px) {
+    .licenses {
+        margin: 80px auto 0;
+        width: calc(100% - 42px);
+    }
+    .licenses-figure {
+        max-width: 100%;
+    }
+    .licenses-caption {
+        margin: 40px 0 0;
+    }
+    .licenses-title {
+        font-size: 36px;
+    }
+    .licenses-text {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .licenses-image {
+        margin: 80px auto 0;
+        width: 256px;
+    }
+}
+
+.sphere-pink {
+    background-image: url("../../assets/images/sphere-pink.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 172px;
+    height: 172px;
+    position: absolute;
+    top: 615px;
+    right: 0px;
+    z-index: -97;
+}
+.triangle-licenses-left {
+    background-image: url("../../assets/images/triangle-top-left.svg");
+    background-repeat: no-repeat;
+    width: 138px;
+    height: 200px;
+    position: absolute;
+    top: 360px;
+    left: -260px;
+    z-index: -97;
+}
+.ellipsis-10-licenses {
+    background-image: url("../../assets/images/ellipsis10.svg");
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    right: -147px;
+    z-index: -97;
+}
+.ellipsis-10-2-licenses {
+    background-image: url("../../assets/images/ellipsis10.svg");
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 701px;
+    left: 170px;
+    z-index: -97;
+}
+
+@media (max-width: 1024px) {
+    .sphere-pink {
+        top: auto;
+        bottom: 230px;
+        right: -80px;
+    }
+    .triangle-licenses-left {
+        bottom: 180px;
+        top: auto;
+        left: -170px;
+    }
+    .ellipsis-10-licenses {
+        top: auto;
+        bottom: 0px;
+        left: 0px;
+        z-index: -97;
+    }
+}
+@media (max-width: 640px) {
+    .sphere-pink {
+        width: 98px;
+        height: 98px;
+        top: auto;
+        bottom: 160px;
+        right: -50px;
+    }
+    .triangle-licenses-left {
+        background-size: contain;
+        width: 65px;
+        height: 94px;
+        bottom: 150px;
+        top: auto;
+        left: -35px;
+    }
+    .ellipsis-10-licenses {
+        top: auto;
+        bottom: 0px;
+        left: 0px;
+        z-index: -97;
+    }
+}

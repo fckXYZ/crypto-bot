@@ -1,0 +1,342 @@
+.profit {
+    margin: 320px auto 0;
+    width: 100%;
+    position: relative;
+}
+
+.profit-figure {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.profit-img {
+    width: 100%;
+}
+
+.profit-caption {
+    margin-right: 32px;
+    font-family: Manrope;
+}
+
+.profit-subtitle {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope light';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.67;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.profit-title {
+    font-family: 'Manrope Bold';
+    margin: 10px 0 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.33;
+    color: #ff2c9c;
+}
+
+.profit-text {
+    margin: 40px 0 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #fff;
+
+    max-width: 370px;
+}
+
+.profit-small-figure {
+    margin: 40px 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.profit-small-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.profit-small-caption {
+    margin-left: 20px;
+}
+
+.small-caption-text {
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #b7b4c9;
+
+    max-width: 360px;
+}
+
+.link-container {
+    margin: 80px 0 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #ff2c9c;
+    text-decoration: none;
+}
+
+.profit-link:hover {
+    text-decoration: none;
+}
+
+.link-arrow {
+    width: 13px;
+    height: 13px;
+    margin-left: 25px;
+}
+
+
+@media (max-width: 1440px) {
+    .profit {
+        width: calc(100% - 96px);
+    }
+}
+
+
+@media(max-width: 1024px) {
+    .profit {
+        width: 100%;
+        margin: 160px auto 0;
+    }
+    .profit-figure {
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-560 {
+        max-width: 541px;
+    }
+    .profit-caption {
+        margin: 0;
+
+    }
+    .profit-subtitle {
+        margin: 80px 0 0;
+    }
+    .profit-text {
+        font-size: 16px;
+    }
+    .attributes {
+        display: flex;
+        flex-direction: row;
+    }
+    .profit-small-figure {
+        flex-direction: column;
+        align-self: flex-start;
+    }
+    .profit-small-figure:last-of-type {
+        margin-left: 76px;
+    }
+    .profit-small-caption {
+        margin: 20px 0 0;
+        max-width: 247px;
+    }
+    .profit-small-caption.first {
+        width: 204px;
+    }
+    .small-caption-text {
+        font-size: 14px;
+        line-height: 1.71;
+    }
+    .link-container {
+        margin-top: 60px;
+    }
+}
+@media(max-width: 640px) {
+    .profit {
+        margin: 80px auto 0;
+        max-width: calc(100% - 42px);
+    }
+    .image-560 {
+        width: 100%;
+    }
+    .profit-figure {
+        max-width: 540px;
+    }
+    .profit-caption {
+        margin: 0;
+        width: 100%;
+    }
+    .profit-subtitle {
+        max-width: 400px;
+        margin: 40px 0 0;
+    }
+    .profit-title {
+        max-width: 500px;
+        margin-top: 10px;
+        font-size: 36px;
+    }
+    .profit-text {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .profit-small-figure {
+        flex-direction: column;
+        align-self: flex-start;
+    }
+    .profit-small-figure:last-of-type {
+        margin-left: 20px;
+    }
+    .profit-small-caption {
+        margin: 20px 0 0;
+        max-width: 157px;
+    }
+    .link-container {
+        margin-top: 40px;
+    }
+}
+
+.cylinder {
+    background-image: url("../../assets/images/cylinder.svg");
+    position: absolute;
+    background-size: contain;
+    width: 144px;
+    height: 167px;
+    top: -122px;
+    left: 511px;
+}
+.cube {
+    background-image: url("../../assets/images/cube.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    position: absolute;
+    width: 172px;
+    height: 177px;
+    bottom: -26px;
+    left: -260px;
+    z-index: -98;
+}
+.ellipsis-18-profit {
+    background-image: url("../../assets/images/ellipsis18.svg");
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -152px;
+    left: 367px;
+    z-index: -98;
+}
+.ellipsis-10-profit {
+    background-image: url("../../assets/images/ellipsis10.svg");
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 254px;
+    left: -159px;
+    z-index: -98;
+}
+.ellipsis-18-2-profit {
+    background-image: url("../../assets/images/ellipsis18.svg");
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    bottom: -168px;
+    right: 550px;
+    z-index: -98;
+}
+
+@media (max-width: 1024px) {
+    .cylinder {
+        top: -137px;
+        left: auto;
+        right: 100px;
+    }
+    .triangle {
+        background-image: url("../../assets/images/triangle-top-right-tablet.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: -26px;
+        z-index: -98;
+        filter: none;
+        width: 159px;
+        height: 142px;
+        top: -129px;
+        left: auto;
+        right: -140px;
+    }
+    .ellipsis-18-profit {
+        top: auto;
+        bottom: -35px;
+        right: 100px
+    }
+    .ellipsis-18-2-profit {
+        top: 663px;
+        right: 0;
+    }
+    .ellipsis-10-profit {
+        background-image: url("../../assets/images/ellipsis10.svg");
+        top: 400px;
+        left: 0;
+    }
+    .cube {
+        background-image: url("../../assets/images/cube.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        filter: blur(5px);
+        position: absolute;
+        width: 172px;
+        height: 177px;
+        bottom: -130px;
+        left: -90px;
+        z-index: -98;
+    }
+}
+@media (max-width: 640px) {
+    .cylinder {
+        height: 93px;
+        width: 80px;
+        top: -67px;
+        left: auto;
+        right: 30px;
+    }
+    .triangle {
+        display: none;
+    }
+    .ellipsis-18-profit {
+        bottom: auto;
+        top: -40px;
+        right: auto;
+        left: 120px;
+    }
+    .ellipsis-18-2-profit {
+       display: none;
+    }
+    .ellipsis-10-profit {
+        background-image: url("../../assets/images/ellipsis10.svg");
+        top: 360px;
+        left: auto;
+        right: 80px;
+    }
+    .cube {
+        filter: blur(2px);
+        width: 85px;
+        height: 88px;
+        top: auto;
+        bottom: -90px;
+        left: -35px;
+    }
+}

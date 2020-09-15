@@ -1,0 +1,128 @@
+.header-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    position: relative;
+}
+
+.dropdown-wrapper {
+    max-width: 121px;
+}
+
+.dropdown-title-wrapper {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.dropdown-title-wrapper.is_opened .dropdown-title {
+    color: #c00066;
+}
+
+.langIcon {
+    color: #c00066;
+    width: 19px;
+    height: 19px;
+}
+
+.header-dropdown {
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 19px;
+}
+
+.dropdown-title {
+    margin: 0;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #fff;
+}
+
+.dropdown-icon {
+    height: 13px;
+    width: 13px;
+    margin-left: 21px;
+    margin-top: 2px;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    box-sizing: border-box;
+    width: 121px;
+    margin-top: 22px;
+    padding: 8px;
+    background-color: #3f3770;
+    border-radius: 10px;
+    list-style: none;
+    z-index: 100;
+}
+
+.dropdown-list.is_opened {
+    display: block;
+}
+
+.dropdown-lang {
+    height: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    font-family: Manrope;
+    padding: 8px 0 0 22px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #fff;
+
+    border-radius: 10px;
+}
+
+.dropdown-lang:hover {
+    background-color: #ff2c9c;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+@media (max-width: 1440px) {
+    .header-wrapper {
+        width: calc(100% - 96px);
+    }
+}
+
+@media (max-width: 640px) {
+    .header-wrapper {
+        padding-top: 41px;
+        width: calc(100% - 42px);
+    }
+    .logo {
+        width: 93px;
+        height: 40px;
+    }
+    .langIcon {
+        width: 15px;
+        height: 15px;
+    }
+    .dropdown-title {
+        font-size: 12px;
+    }
+    .header-dropdown {
+        position: relative;
+        top: -2px;
+    }
+}
