@@ -297,6 +297,9 @@
         top: 476px;
         right: -120px;
     }
+    .dots-from-right {
+        display: block;
+    }
     .ellipsis {
         top: 660px;
         right: 180px;
