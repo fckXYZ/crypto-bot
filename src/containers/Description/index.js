@@ -25,7 +25,7 @@ export const Description = (props) => {
 							25-40%
 							<img className='percent-star' src={star}/>
 						</h4>
-						<p className={`img-text ${props.lang === 'RU' ? ' ru' : null}`}>
+						<p className={`img-text ${props.lang === 'EN' ? null : ' ru'}`}>
 							<Tr lang={props.lang} string="Our robots provide high monthly returns"/>
 						</p>
 					</div>

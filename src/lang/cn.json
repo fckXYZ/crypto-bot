@@ -20,9 +20,9 @@
   "today": "today",
   "Our robots provide high monthly returns": "Our robots provide high monthly returns",
   "* This is an average profit figure. It may change depending on the state of the cryptocurrency market.": "* This is an average profit figure. It may change depending on the state of the cryptocurrency market.",
-  "Limit on the amount of the ACB deposit": "Limit on the amount of the ACB deposit",
-  "Commission for the received profit": "Commission for the received profit",
-  "The number of levels for the referral program for the purchase of a license by partners": "The number of levels for the referral program for the purchase of a license by partners",
-  "Cost": "Cost",
-  "Buy": "Buy"
+  "Limit on the amount of the ACB deposit": "ACB存款的限额",
+  "Commission for the received profit": "获得利润的佣金",
+  "The number of levels for the referral program for the purchase of a license by partners": "会员购买许可的推荐计划级别数",
+  "Cost": "价格",
+  "Buy": "购买"
 }

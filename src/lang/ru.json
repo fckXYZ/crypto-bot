@@ -1,6 +1,6 @@
 {
   "Our in-house development": "Собственная разработка нашего IT-отдела",
-  "A software algorithm capable of earning 25-40% of profit per month on cryptocurrency trading.": "Программный алгоритм, обученный извлекать 30-40% прибыли в месяц на торговле криптовалютами.",
+  "A software algorithm capable of earning 25-40% of profit per month on cryptocurrency trading.": "Программный алгоритм, обученный извлекать 25-40% прибыли в месяц на торговле криптовалютами.",
   "Start the robot": "Запустить робота",
   "The robots use high-frequency trading, so they are available only on our own exchange platform—": "Роботы используют высокочастотный трейдинг, поэтому они размещены только на нашей собственной бирже ",
   "—which gives an advantage in signal processing speed, increases the number of trades and allows you to unlock 100% of Antares Crypto Bot's potential.": ", что даёт преимущество в скорости обработки сигналов, увеличивает количество совершаемых сделок и позволяет реализовать потенциал Antares Crypto Bot на 100%.",
@@ -24,6 +24,5 @@
   "Commission for the received profit": "Комиссия на полученную прибыль",
   "The number of levels for the referral program for the purchase of a license by partners": "Количество уровней по реферальной программе за покупку лиценции партнёрами",
   "Cost": "Стоимость",
-  "Buy": "Купить",
-  "": ""
+  "Buy": "Купить"
 }
