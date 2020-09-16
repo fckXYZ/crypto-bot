@@ -24,6 +24,7 @@ function App() {
             </div>
             <div className='bg-obj-triangle-top-right'/>
             <div className='bg-obj-triangle-top-left'/>
+            <div className='bg-obj-triangle-middle-right'/>
             <div className='bg-obj-triangle-bottom-left'/>
             <div className='bg-obj-triangle-bottom-right'/>
             <div className='bottom-bg'/>

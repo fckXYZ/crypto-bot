@@ -257,6 +257,7 @@
 .coin-two {
     background-image: url("../../assets/images/coin2.png");
     background-repeat: no-repeat;
+    background-size: contain;
     width: 140px;
     height: 140px;
     position: absolute;
@@ -266,6 +267,7 @@
 }
 
 .dots-from-right {
+    display: none;
     background-image: url("../../assets/images/dotsFromRight.svg");
     background-repeat: no-repeat;
     width: 159px;
