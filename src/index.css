@@ -38,6 +38,8 @@ code {
   /*max-width: 1160px;*/
   align-items: center;
   overflow-x: hidden;
+  overflow-y: hidden;
+
   box-sizing: initial;
 }
 
@@ -174,6 +176,7 @@ a:hover {
   bottom: 0;
   left: 0;
   z-index: -99;
+
 }
 @media (max-width: 1680px) {
   .bottom-bg {
