@@ -15,7 +15,7 @@ class Header extends React.Component {
 			{key: 'ES', value: 'Spanish'},
 			{key: 'CN', value: '中文'},
 			{key: 'IT', value: 'Italian'},
-			{key: 'ML', value: 'Malaysian'},
+			// {key: 'ML', value: 'Malaysian'},
 		],
 		active_lang: this.props.lang,
 	}
