@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Source Sans Pro',
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -130,4 +130,116 @@ a:hover {
   .main {
     width: 100%;
   }
+}
+
+/*bg*/
+
+.top-bg {
+  background-image: url("./assets/images/bgMain.svg");
+  width: 100vw;
+  height: 808px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  z-index: -99;
+}
+@media (max-width: 1680px) {
+  .top-bg {
+    top: 91px;
+  }
+}
+@media (max-width: 1024px) {
+  .top-bg {
+    top: 200px;
+  }
+}
+@media (max-width: 640px) {
+  .top-bg {
+    height: 373px;
+    top: 240px;
+  }
+}
+
+.bottom-bg {
+  background-image: url("./assets/images/gridBottom.svg");
+  width: 100vw;
+  height: 1363px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -99;
+}
+@media (max-width: 1680px) {
+  .bottom-bg {
+    height: 1150px;
+  }
+}
+
+@media (max-width: 640px) {
+  .bottom-bg {
+    height: 500px;
+  }
+}
+
+
+/*flying staff*/
+
+.bg-obj-triangle-top-left {
+  background-image: url("./assets/images/triangle-top-left.svg");
+  width: 138px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 751px;
+  left: 0;
+}
+.bg-obj-triangle-top-right {
+  background-image: url("./assets/images/triangle-top-right.svg");
+  width: 159px;
+  height: 142px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 166px;
+  z-index: -99;
+}
+.bg-obj-triangle-bottom-left {
+  background-image: url("./assets/images/triangle-top-left.svg");
+  width: 138px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 1937px;
+  left: 0;
+}
+.bg-obj-triangle-bottom-right {
+  background-image: url("./assets/images/dotsFromRight.svg");
+  width: 159px;
+  height: 142px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 552px;
+  right: -40px;
+}
+@media (max-width: 1024px) {
+  .bg-obj-triangle-top-left {
+    display: none;  }
+  .bg-obj-triangle-top-right {
+    display: none;  }
+  .bg-obj-triangle-bottom-left {
+    display: none;  }
+  .bg-obj-triangle-bottom-right {
+    display: none;
+  }
+
 }

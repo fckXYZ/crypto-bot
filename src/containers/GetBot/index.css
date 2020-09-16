@@ -12,19 +12,19 @@
     margin-right: 0;
 }
 
-.getBot:after {
-    content: '';
-    background-image: url("../../assets/images/gridBottom.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 1680px;
-    height: 1220px;
-    position: absolute;
-    left: -260px;
-    bottom: 0;
-    z-index: -99;
-}
+/*.getBot:after {*/
+/*    content: '';*/
+/*    background-image: url("../../assets/images/gridBottom.svg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*    background-size: cover;*/
+/*    width: 1680px;*/
+/*    height: 1220px;*/
+/*    position: absolute;*/
+/*    left: -260px;*/
+/*    bottom: 0;*/
+/*    z-index: -99;*/
+/*}*/
 
 .getBot-title {
     margin: 20px 0 0;
@@ -147,6 +147,7 @@
     right: 225px;
 }
 .bottom-triangle {
+    display: none;
     background-image: url("../../assets/images/dotsFromRight.svg");
     position: absolute;
     width: 159px;

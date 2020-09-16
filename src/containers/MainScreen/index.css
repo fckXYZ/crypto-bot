@@ -11,23 +11,22 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 42px;
-    /*position: relative;*/
 }
 
-.main-page:before {
-    content: '';
-    background-image: url("../../assets/images/bgMain.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 108px;
-    left: -260px;
-    width: 1680px;
-    height: 707px;
-    z-index: -99;
-    opacity: .5;
-}
+/*.main-page:before {*/
+/*    content: '';*/
+/*    background-image: url("../../assets/images/bgMain.svg");*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    position: absolute;*/
+/*    top: 108px;*/
+/*    left: -260px;*/
+/*    width: 1680px;*/
+/*    height: 707px;*/
+/*    z-index: -99;*/
+/*    opacity: .5;*/
+/*}*/
 
 .main-caption {
     margin-right: 32px;
@@ -83,10 +82,7 @@ span {
     color: #fff;
 
     cursor: pointer;
-    /*width: 195px;*/
-    /*height: 64px;*/
     margin: 60px 0 0;
-    /*padding: 0 32px;*/
     border: none;
     border-radius: 20px;
     background-color: #ff2c9c;
@@ -124,7 +120,6 @@ span {
     .start-button {
         font-size: 16px;
         margin: 40px auto 117px;
-        /*width: 207px;*/
     }
     .robot {
         max-width: 394px !important;
@@ -158,14 +153,13 @@ span {
     }
     .start-button {
         margin-top: 20px;
-        margin-bottom: 52px;
-        /*width: 173px;*/
         height: 52px;
         font-size: 14px;
     }
 }
 
 .triangle-top-right {
+    display: none;
     background-image: url("../../assets/images/triangle-top-right.svg");
     background-repeat: no-repeat;
     position: absolute;
@@ -177,6 +171,7 @@ span {
 }
 
 .triangle-top-left {
+    display: none;
     background-image: url("../../assets/images/triangle-top-left.svg");
     background-repeat: no-repeat;
     position: absolute;
@@ -216,9 +211,13 @@ span {
 
 @media (max-width: 1024px) {
     .triangle-top-right {
+        display: block;
         background-image: url("../../assets/images/triangle-top-right-tablet.svg");
         top: 20px;
         right: -190px;
+    }
+    .triangle-top-left {
+        display: block;
     }
     .ellipsis-8 {
         top: 170px;

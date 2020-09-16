@@ -13,7 +13,7 @@ export const MainScreen = (props) => {
 				<div className='main-caption'>
 					<p className='subtitle'><Tr lang={props.lang} string='Our in-house development'/></p>
 					<h1 className='title'>Antares <span>Crypto Bot</span></h1>
-					<p className='text'><Tr lang={props.lang} string='A software algorithm capable of earning 30-40% of profit per month on cryptocurrency trading.'/></p>
+					<p className='text'><Tr lang={props.lang} string='A software algorithm capable of earning 25-40% of profit per month on cryptocurrency trading.'/></p>
 					<button className='start-button button' onClick={() => window.open('https://antares.trade/personal/robot/', '_blank')}><Tr lang={props.lang} string='Start the robot'/></button>
 				</div>
 				<div className='image-560 robot'>

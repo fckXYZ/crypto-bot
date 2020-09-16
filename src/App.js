@@ -13,6 +13,7 @@ function App() {
 
     return (
         <div className="root">
+            <div className='top-bg'/>
             <Header lang={lang} onChange={(lang) => setLang(lang)}/>
             <div className='main'>
                 <MainScreen lang={lang}/>
@@ -21,6 +22,11 @@ function App() {
                 <Licenses lang={lang}/>
                 <GetBot lang={lang}/>
             </div>
+            <div className='bg-obj-triangle-top-right'/>
+            <div className='bg-obj-triangle-top-left'/>
+            <div className='bg-obj-triangle-bottom-left'/>
+            <div className='bg-obj-triangle-bottom-right'/>
+            <div className='bottom-bg'/>
         </div>
     );
 }

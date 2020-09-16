@@ -31,12 +31,14 @@
 }
 
 .header-dropdown {
+    position: relative;
     margin-left: 10px;
     cursor: pointer;
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 19px;
+    z-index: 10001;
 }
 
 .dropdown-title {

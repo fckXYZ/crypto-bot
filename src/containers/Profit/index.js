@@ -41,7 +41,7 @@ export const Profit = (props) => {
 						</figure>
 					</div>
 					<div className='profit-link-container link-container'>
-						<a className='profit-link link' href='https://antares.trade/robot-profit-team/#about' target='_blank'>
+						<a className='profit-link link' href='https://antares.trade/robot-profit-team/#partners' target='_blank'>
 							<Tr lang={props.lang} string='More about the affiliate program'/>
 						</a>
 						<img className='link-arrow' src={rightArrow}/>
