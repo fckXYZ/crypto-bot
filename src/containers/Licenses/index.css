@@ -217,13 +217,17 @@
     font-size: 11px;
 }
 .pic-card-president .middle-block {
-    margin-top: 15px;
+    margin-top: 0px;
 }
+.pic-card-president .middle-block .card-subtitle{
+    height: 40px;
+}
+
 .pic-card-president .card-footer {
     margin-top: 20px;
 }
 .pic-card-president .card-buy {
-    margin-top: 25px;
+    margin-top: 23px;
 }
 .pic-card-premium {
     position: absolute;
@@ -246,13 +250,16 @@
     font-size: 11px;
 }
 .pic-card-premium .middle-block {
-    margin-top: 15px;
+    margin-top: 0px;
+}
+.pic-card-premium .middle-block .card-subtitle{
+     height: 40px;
 }
 .pic-card-premium .card-footer {
     margin-top: 20px;
 }
 .pic-card-premium .card-buy {
-    margin-top: 24px;
+    margin-top: 22px;
 }
 .pic-card-premium .top-right {
     margin-left: 0;
@@ -302,14 +309,16 @@
 }
 .top-right {
     margin-left: 20px;
+    height: 65px;
 }
 .middle-block {
     width: 100%;
-    margin: 26px 0 0 33px;
+    margin: 10px 0 0 33px;
     max-width: 202px;
 }
 .middle-block .card-subtitle {
     max-width: 202px;
+    height: 40px;
 }
 .card-footer {
     margin: 32px 0 0 33px;
@@ -349,11 +358,14 @@
     .pic-card-president .middle-block {
         margin-top: 10px;
     }
+    .pic-card-president .middle-block .card-subtitle {
+        height: 24px;
+    }
     .pic-card-president .card-footer {
-        margin-top: 23px;
+        margin-top: 10px;
     }
     .pic-card-president .card-buy {
-        margin-top: 15px;
+        margin-top: 17px;
     }
     .pic-card-premium {
         width: 149px;
@@ -365,7 +377,7 @@
         margin-top: 73px;
     }
     .pic-card-premium .top-right {
-        margin-left: -5px;
+        margin-left: 0px;
         max-width: 53px;
     }
     .pic-card-premium .card-title {
@@ -376,8 +388,11 @@
         margin-top: 2px;
         margin-left: 20px;
     }
+    .pic-card-premium .middle-block .card-subtitle {
+        height: 24px;
+    }
     .pic-card-premium .card-footer {
-        margin-top: 23px;
+        margin-top: 20px;
     }
     .pic-card-premium .card-buy {
         margin-top: 15px;
@@ -391,6 +406,9 @@
     .top-block {
         margin: 81px 0 0 23px;
     }
+    .top-right {
+        height: 40px;
+    }
     .card-title {
         font-size: 7px;
         line-height: 9px;
@@ -399,15 +417,19 @@
         font-size: 6px;
         line-height: 8px;
         margin: 5px 0 0;
-        max-width: 60px;
+        max-width: 55px;
     }
     .top-right {
-        margin-left: 0px;
+        margin-left: 10px;
         max-width: 55px;
     }
     .middle-block {
-        margin: 22px 0 0 23px;
+        margin: 13px 0 0 23px;
         max-width: 110px;
+    }
+    .middle-block .card-subtitle {
+        max-width: 202px;
+        height: 24px;
     }
     .card-footer {
         margin: 18px 0 0 23px;

@@ -14,63 +14,92 @@ export const Licenses = (props) => {
 						<div className='top-block'>
 							<div className='top-left'>
 								<h5 className='card-title'>22 000 USDT</h5>
-								<p className='card-subtitle'>Лимит на объем депозита ACB</p>
+								<p className='card-subtitle'>
+									<Tr lang={props.lang} string='Limit on the amount of the ACB deposit'/>
+								</p>
 							</div>
 							<div className='top-right'>
 								<h5 className='card-title'>6%</h5>
-								<p className='card-subtitle'>Комиссия на полученную прибыль</p>
+								<p className='card-subtitle'>
+									<Tr lang={props.lang} string='Commission for the received profit'/>
+								</p>
 							</div>
 						</div>
 						<div className='middle-block'>
 							<h5 className='card-title'>7</h5>
-							<p className='card-subtitle'>Количество уровней по реферальной программе за покупку лиценции партнёрами</p>
+							<p className='card-subtitle'>
+								<Tr lang={props.lang} string='The number of levels for the referral program for the purchase of a license by partners'/>
+							</p>
 						</div>
 						<div className='card-footer'>
-							<p className='card-subtitle'>Стоимость</p>
+							<p className='card-subtitle'>
+								<Tr lang={props.lang} string='Cost'/>
+							</p>
 						</div>
-						<p className='card-buy'>Купить</p>
+						<p className='card-buy'>
+							<Tr lang={props.lang} string='Buy'/>
+						</p>
 					</div>
 					<div className='pic-card-emperor'>
 						<div className='top-block'>
 							<div className='top-left'>
 								<h5 className='card-title'>60 000 USDT</h5>
-								<p className='card-subtitle'>Лимит на объем депозита ACB</p>
+								<p className='card-subtitle'>
+									<Tr lang={props.lang} string='Limit on the amount of the ACB deposit'/>
+								</p>
 							</div>
 							<div className='top-right'>
 								<h5 className='card-title'>6%</h5>
-								<p className='card-subtitle'>Комиссия на полученную прибыль</p>
+								<p className='card-subtitle'>
+									<Tr lang={props.lang} string='Commission for the received profit'/>
+								</p>
 							</div>
 						</div>
 						<div className='middle-block'>
 							<h5 className='card-title'>8</h5>
-							<p className='card-subtitle'>Количество уровней по реферальной программе за покупку лиценции партнёрами</p>
+							<p className='card-subtitle'>
+								<Tr lang={props.lang} string='The number of levels for the referral program for the purchase of a license by partners'/>
+							</p>
 						</div>
 						<div className='card-footer'>
-							<p className='card-subtitle'>Стоимость</p>
+							<p className='card-subtitle'>
+								<Tr lang={props.lang} string='Cost'/>
+							</p>
 						</div>
-						<p className='card-buy'>Купить</p>
+						<p className='card-buy'>
+							<Tr lang={props.lang} string='Buy'/>
+						</p>
 					</div>
 					<div className='pic-card-premium'>
 						<div className='top-block'>
 							<div className='top-left'>
 								<h5 className='card-title'>60 000 USDT</h5>
-								<p className='card-subtitle'>Лимит на объем депозита ACB</p>
+								<p className='card-subtitle'>
+									<Tr lang={props.lang} string='Limit on the amount of the ACB deposit'/>
+								</p>
 							</div>
 							<div className='top-right'>
 								<h5 className='card-title'>10%</h5>
-								<p className='card-subtitle'>Комиссия на полученную прибыль</p>
+								<p className='card-subtitle'>
+									<Tr lang={props.lang} string='Commission for the received profit'/>
+								</p>
 							</div>
 						</div>
 						<div className='middle-block'>
 							<h5 className='card-title'>8</h5>
-							<p className='card-subtitle'>Количество уровней по реферальной программе за покупку лиценции партнёрами</p>
+							<p className='card-subtitle'>
+								<Tr lang={props.lang} string='The number of levels for the referral program for the purchase of a license by partners'/>
+							</p>
 						</div>
 						<div className='card-footer'>
-							<p className='card-subtitle'>Стоимость</p>
+							<p className='card-subtitle'>
+								<Tr lang={props.lang} string='Cost'/>
+							</p>
 						</div>
-						<p className='card-buy'>Купить</p>
+						<p className='card-buy'>
+							<Tr lang={props.lang} string='Buy'/>
+						</p>
 					</div>
-					{/*<img className='licenses-figure-image' src={license}/>*/}
 				</div>
 				<figcaption className='licenses-caption'>
 					<h2 className='licenses-title title-sm'>
